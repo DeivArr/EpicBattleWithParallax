@@ -11,5 +11,5 @@ And that´s it!
 You can now create your own parallax scenes!.
 Happy coding.
 
-
+You can see the site published here: https://deivarr.github.io/EpicBattleWithParallax/
 More about parallax here: http://matthew.wagerfield.com/parallax/
