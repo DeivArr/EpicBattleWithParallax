@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd';
+    src: url('../fonts/HelveticaNeueLTStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-inverse
+{
+  background-color: #000000 !important;
+}
+
+.video-zone
+{
+  width: 100%;
+  margin-top: 2.2em;
+  min-height: 20em;
+}
+
+.introduction
+{
+  width: 100%;
+  margin: 0;
+}
+
+.text
+{
+  width: 50%;
+}
+
+.loading
+{
+  width: 50%;
+}
+
+.img-standard
+{
+  width: 100%;
+  height: auto;
+}
+
+.introduccion
+{
+  width: 100%;
+  margin: 0;
+  background-color: #81c2e6;
+  height: 35%;
+
+  img
+  {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .prepa-logo
+  {
+    padding-left: 1em;
+  }
+
+  .power-up
+  {
+    text-align: left;
+  }
+}
+
+.body-info
+{
+  padding-top: 3em;
+  padding-bottom: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #B1D9F5;
+
+  .cont
+  {
+    padding: 6%;
+  }
+}
+
+.fight-scene
+{
+  overflow: hidden;
+  background-color: #B1D9F5;
+}
+
+.coin-scene
+{
+  overflow: hidden;
+  background-color: #B1D9F5;
+}
+
+.img-wrap > img
+{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.img-wrap {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container-body
+{
+    margin-right: 6em;
+    margin-left: 6em;
+}
+
+.mountain-style
+{
+ left: -1% !important;
+}
+
+.right-cloud-style
+{
+ left: 3% !important;
+}
+
+.layer
+{
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.height-header
+{
+  /*height: 15em;*/
+  height: 12em;
+  margin: 0;
+  width: 100%;
+  margin-top: -1px;
+  background-color: #80c3e7;
+  overflow: hidden;
+}
+
+.img-map-scene 
+{
+  position: relative;
+}
+
+.arrow 
+{
+  position: absolute;
+  top: 60%;
+  right: 28%;
+  width: 11%;
+  height: auto;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+      /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example 
+{
+    0%   {right: 29%;}
+    50%   {right: 27%;}
+    100%  {right: 29%;}
+}
+
+/* Standard syntax */
+@keyframes example 
+{
+    0%   {right: 29%;}
+    50%   {right: 27%;}
+    100%  {right: 29%;}
+}
+
+.img-header-left
+{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 10%;
+}
+
+.img-header-right 
+{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 20%;
+}    
+
+.font-helvet
+{
+  font-family: 'HelveticaNeueLTStd';
+  font-size: 1.3em;
+}
+
+section
+{
+  height: 100%;
+}
+
+footer
+{
+  text-align: center;
+  background-color: black;
+
+  .logos-footer
+  {
+    padding-bottom: 3%;
+    padding-top: 3%;   
+  }
+
+  .links-footer
+  {
+    padding-bottom: 3%;
+  }
+
+  .footer-information
+  {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+
+    p
+    {
+      font-family: 'Gotham';
+      max-width: 100%;
+      width: 45%;
+      height: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      color: white;
+    }
+  }
+}
+
+.no-padding
+{
+  padding: 0;
+}
+
+.img-logo-prepa
+{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 25%;
+}
+
+.header-menu
+{
+  background-color: #daddde;
+  height: 4em;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header-logos
+{
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu-link
+{
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+  display: -webkit-inline-box;
+
+  li
+  {
+    font-family: 'HelveticaNeueLTStd';
+    font-size: 1em;
+    font-weight: bold;
+    width: 25%;
+
+    a
+    {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.menu-small
+{
+  display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 750px) {
+  .menu-small
+  {
+    display: block;
+  }
+
+  .fight-scene
+  {
+    height: 10%;
+  }
+
+  .img-header-left
+  {
+    width: 90%;
+    margin-left: auto;
+  }
+
+  .img-header-right
+  {
+    padding-bottom: 15%;
+    width: 80%;
+    margin-right: auto;
+  }
+
+  .img-header-suitcase 
+  {
+    width: 15% !important;
+    margin-top: 0% !important;
+  }
+
+  .img-header-bar 
+  {
+    width: 80% !important;
+  }
+
+  .row.header-logos
+  {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 992px)
+{
+}
+
+@media only screen and (min-width: 1600px)
+{
+  .height-header
+  {
+    height: 15em;
+  }
+}
+

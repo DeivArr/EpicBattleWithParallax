@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title></title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body style="height: 100%;">
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top menu-small">
+      <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false" style="" >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link page-scroll" class="page-scroll" href="#introduction">Scene 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" class="page-scroll" href="#desafio">Scene 2</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row header-menu">
+      <div class="col-12 col-md-4 col-lg-4">
+        
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <ul class="menu-link">
+          <li>
+            <a id = "linkIntroduction" class="page-scroll" href="#introduction">Scene 1</a>
+          </li>
+          <li>
+            <a id = "linkDesafio" class="page-scroll" href="#desafio">Scene 2</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        
+      </div>  
+    </div>
+
+    <div class="body-info">
+      <div class="container cont">
+        <div class="row">
+          <div class="col-xs-12 font-helvet">
+            <p>Here is an example about an epic battle with images with pharallax</p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="fight-scene" id = "scene">
+        <img class="layer" src="img/bottom-grass.png" data-depth="0.0" style="z-index: 2;">
+        <img class="layer mountain-style" src="img/center-mountain.png" data-depth="0.1" style="z-index: 1;">
+        <img class="layer" src="img/left-tree.png" data-depth="0.0" style="z-index: 2;">
+        <img class="layer" src="img/left-robot.png" data-depth="0.05" style="z-index: 2;">
+        <img class="layer" src="img/right-robot.png" data-depth="0.05" style="z-index: 2;">
+        <img class="layer right-cloud-style" src="img/right-cloud.png" data-depth="0.4" style="z-index: 1;">
+        <img class="layer" src="img/top-cloud.png" data-depth="0.5" style="z-index: 1;">
+      </div>
+      <script src="js/parallax.js"></script>
+
+      <script type="text/javascript">
+        var scene = document.getElementById('scene');
+
+        var parallaxInstance = new Parallax(scene,{
+          relativeInput: true
+        });
+      </script>
+    </div>
+
+    <div>
+
+      <div class="coin-scene" id = "second-scene">
+        <img class="layer" src="img/second-scene/grass-coin.png" data-depth="0.0" style="z-index: 2;">
+        <img class="layer" src="img/second-scene/second-scene-center-cloud.png" data-depth="0.4" style="z-index: 1;">
+        <img class="layer" src="img/second-scene/second-scene-top-cloud.png" data-depth="0.5" style="z-index: 1;">
+      </div>
+      <script type="text/javascript">
+        var secondscene = document.getElementById('second-scene');
+
+        var parallaxInstance = new Parallax(secondscene,{
+          relativeInput: true
+        });
+      </script>
+
+      <style type="text/css">
+      #coinRotate {
+        -webkit-animation: rotation 5s infinite linear;
+      }
+
+      @-webkit-keyframes rotation {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+      }
+
+      .desafio-img
+      {
+        width: 25%;
+        height: auto;
+      }
+
+      .seguridad-img
+      {
+        width: 68%;
+        height: auto;
+      }
+
+      .juego-img
+      {
+        width: 55%;
+        height: auto;
+      }
+
+      .equipos-img
+      {
+        width: 27%;
+        height: auto;
+      }
+
+      .coin
+      {
+        padding-top: 0%;
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 5%;
+        height: auto;
+      }
+
+      .up-coin
+      {
+        margin-top: 2%;
+      }
+
+      .coin-top
+      {
+        margin-top: 14%;
+      }
+
+      .link
+      {
+        padding-left: 4%;
+      }
+
+      .coin-show
+      {
+        padding-top: 4%;
+      }
+
+      .first-coin
+      {
+        left: 5% !important;
+        top: 20% !important;
+        width: 4% !important; 
+      }
+
+      .second-coin
+      {
+        left: 5% !important;
+        top: 31% !important;
+        width: 4% !important;
+      }
+
+      .third-coin
+      {
+        left: 5% !important;
+        top: 43% !important;
+        width: 4% !important;
+      }
+
+      .fourth-coin
+      {
+        left: 5% !important;
+        top: 56% !important;
+        width: 4% !important;
+      }
+
+      .desafio-link
+      {
+        left: 12% !important;
+        top: 17% !important;
+        width: 19% !important;
+      } 
+
+      .manual-seguridad
+      {
+        left: 12% !important;
+        top: 31% !important;
+        width: 53% !important;
+      } 
+
+      .manual-juego
+      {
+        left: 12% !important;
+        top: 43% !important;
+        width: 42% !important;
+      }
+
+      .equipos-link
+      {
+        left: 12% !important;
+        top: 56% !important;
+        width: 20% !important;
+      }
+      </style>
+
+      <script src="js/parallax.js"></script>
+    </div>
+   <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+
+      .img-header-sede
+      {
+        width: 25%;
+      }
+
+      .img-header-suitcase
+      {
+        width: 32%;
+        margin-top: 16%;
+      }
+
+      .img-header-introduccion
+      {
+        width: 75%;
+      }
+
+      .img-header-bar
+      {
+        width: 100%;
+      }
+
+      #first-coin
+      {
+         transition: transform 1s;
+        transform: rotate(-180deg);
+      }
+
+      .image {
+        -moz-transition: transform 0.1s;
+        -webkit-transition: transform 0.1s;
+        transition: transform 0.1s;
+      }
+
+      .flip {
+        transform: rotate(-180deg);
+      }
+
+      html, body {
+    height: 100%;
+}
+
+      .menu-link li
+      {
+        width: 40%;
+      }
+    </style>
+
+    <script type="text/javascript">
+      $(document).ready( function() {
+        setInterval(function(){ 
+          var src = $("#load-bar").attr('src');
+          src = parseInt(src.replace(/\D/g,''));
+
+          if(src == 99)
+            src = 33;
+          else
+            src = src + 33;
+
+          $("#load-bar").attr('src', 'img/bar-' + src + '.png');
+
+        }, 1000);
+
+        setInterval(function(){ 
+          var src = $("#heart-header").attr('src');
+          src = parseInt(src.replace(/\D/g,''));
+
+          if(src == 3)
+            src = 1;
+          else
+            src = src + 1;
+
+          $("#heart-header").attr('src', 'img/'+ src +'-corazones.png');
+
+        }, 1000);
+
+        $(function() {
+          $('a.page-scroll').bind('click', function(event) {
+              var $anchor = $(this);
+              $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+              }, 1500, 'easeInOutExpo');
+              event.preventDefault();
+          });
+        });
+      });
+
+      // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+
+    </script>
+  </body>
+</html>

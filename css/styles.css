@@ -1,0 +1,409 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeueLTStd';
+  src: url("../fonts/HelveticaNeueLTStd.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 15, ../sass/styles.scss */
+.bg-inverse {
+  background-color: #000000 !important;
+}
+
+/* line 20, ../sass/styles.scss */
+.video-zone {
+  width: 100%;
+  margin-top: 2.2em;
+  min-height: 20em;
+}
+
+/* line 27, ../sass/styles.scss */
+.introduction {
+  width: 100%;
+  margin: 0;
+}
+
+/* line 33, ../sass/styles.scss */
+.text {
+  width: 50%;
+}
+
+/* line 38, ../sass/styles.scss */
+.loading {
+  width: 50%;
+}
+
+/* line 43, ../sass/styles.scss */
+.img-standard {
+  width: 100%;
+  height: auto;
+}
+
+/* line 49, ../sass/styles.scss */
+.introduccion {
+  width: 100%;
+  margin: 0;
+  background-color: #81c2e6;
+  height: 35%;
+}
+/* line 56, ../sass/styles.scss */
+.introduccion img {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+/* line 62, ../sass/styles.scss */
+.introduccion .prepa-logo {
+  padding-left: 1em;
+}
+/* line 67, ../sass/styles.scss */
+.introduccion .power-up {
+  text-align: left;
+}
+
+/* line 73, ../sass/styles.scss */
+.body-info {
+  padding-top: 0%;
+  padding-bottom: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #B1D9F5;
+}
+/* line 81, ../sass/styles.scss */
+.body-info .cont {
+  padding: 6%;
+}
+
+/* line 87, ../sass/styles.scss */
+.fight-scene {
+  overflow: hidden;
+  background-color: #B1D9F5;
+}
+
+/* line 93, ../sass/styles.scss */
+.coin-scene {
+  overflow: hidden;
+  background-color: #B1D9F5;
+}
+
+/* line 99, ../sass/styles.scss */
+.img-wrap > img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 110, ../sass/styles.scss */
+.img-wrap {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* line 119, ../sass/styles.scss */
+.container-body {
+  margin-right: 6em;
+  margin-left: 6em;
+}
+
+/* line 125, ../sass/styles.scss */
+.mountain-style {
+  left: -1% !important;
+}
+
+/* line 130, ../sass/styles.scss */
+.right-cloud-style {
+  left: 3% !important;
+}
+
+/* line 135, ../sass/styles.scss */
+.layer {
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+/* line 144, ../sass/styles.scss */
+.height-header {
+  /*height: 15em;*/
+  height: 12em;
+  margin: 0;
+  width: 100%;
+  margin-top: -1px;
+  background-color: #80c3e7;
+  overflow: hidden;
+}
+
+/* line 155, ../sass/styles.scss */
+.img-map-scene {
+  position: relative;
+}
+
+/* line 160, ../sass/styles.scss */
+.arrow {
+  position: absolute;
+  top: 60%;
+  right: 28%;
+  width: 11%;
+  height: auto;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {
+    right: 29%;
+  }
+  50% {
+    right: 27%;
+  }
+  100% {
+    right: 29%;
+  }
+}
+/* Standard syntax */
+@keyframes example {
+  0% {
+    right: 29%;
+  }
+  50% {
+    right: 27%;
+  }
+  100% {
+    right: 29%;
+  }
+}
+/* line 191, ../sass/styles.scss */
+.img-header-left {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 10%;
+}
+
+/* line 205, ../sass/styles.scss */
+.img-header-right {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 20%;
+}
+
+/* line 219, ../sass/styles.scss */
+.font-helvet {
+  font-family: 'HelveticaNeueLTStd';
+  font-size: 1.3em;
+}
+
+/* line 225, ../sass/styles.scss */
+section {
+  height: 100%;
+}
+
+/* line 230, ../sass/styles.scss */
+footer {
+  text-align: center;
+  background-color: black;
+}
+/* line 235, ../sass/styles.scss */
+footer .logos-footer {
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+/* line 241, ../sass/styles.scss */
+footer .links-footer {
+  padding-bottom: 3%;
+}
+/* line 246, ../sass/styles.scss */
+footer .footer-information {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+/* line 252, ../sass/styles.scss */
+footer .footer-information p {
+  font-family: 'Gotham';
+  max-width: 100%;
+  width: 45%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+  font-size: 0.8em;
+}
+
+/* line 269, ../sass/styles.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 274, ../sass/styles.scss */
+.img-logo-prepa {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-left: 25%;
+}
+
+/* line 288, ../sass/styles.scss */
+.header-menu {
+  background-color: #daddde;
+  height: 4em;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 297, ../sass/styles.scss */
+.header-logos {
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 305, ../sass/styles.scss */
+.menu-link {
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+  display: -webkit-inline-box;
+}
+/* line 313, ../sass/styles.scss */
+.menu-link li {
+  font-family: 'HelveticaNeueLTStd';
+  font-size: 1em;
+  font-weight: bold;
+  width: 25%;
+}
+/* line 320, ../sass/styles.scss */
+.menu-link li a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 329, ../sass/styles.scss */
+.menu-small {
+  display: none;
+}
+
+/* line 334, ../sass/styles.scss */
+.list-coin {
+  padding-left: 3%;
+}
+/* line 338, ../sass/styles.scss */
+.list-coin li {
+  list-style: none;
+  margin-top: 1%;
+}
+/* line 343, ../sass/styles.scss */
+.list-coin li img {
+  width: 2%;
+  height: auto;
+  margin-right: 1%;
+}
+
+/* line 352, ../sass/styles.scss */
+.video-zone {
+  width: 100%;
+  margin-top: 0em;
+  height: 20%;
+  min-height: 20em;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 750px) {
+  /* line 361, ../sass/styles.scss */
+  .video-zone {
+    min-height: 8em;
+    height: auto;
+  }
+
+  /* line 367, ../sass/styles.scss */
+  .menu-small {
+    display: block;
+  }
+
+  /* line 372, ../sass/styles.scss */
+  .fight-scene {
+    height: 10%;
+  }
+
+  /* line 377, ../sass/styles.scss */
+  .img-header-left {
+    width: 90%;
+    margin-left: auto;
+  }
+
+  /* line 383, ../sass/styles.scss */
+  .img-header-right {
+    padding-bottom: 15%;
+    width: 80%;
+    margin-right: auto;
+  }
+
+  /* line 390, ../sass/styles.scss */
+  .img-header-suitcase {
+    width: 15% !important;
+    margin-top: 0% !important;
+  }
+
+  /* line 396, ../sass/styles.scss */
+  .img-header-bar {
+    width: 80% !important;
+  }
+
+  /* line 401, ../sass/styles.scss */
+  .row.header-logos {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  /* line 413, ../sass/styles.scss */
+  .height-header {
+    height: 15em;
+  }
+}
